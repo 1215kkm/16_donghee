@@ -1,0 +1,265 @@
+@charset "UTF-8" ;
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+img {
+    display: block;
+}
+@font-face {
+    font-family: 'Pretendard-Thin';
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff") format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-ExtraLight';
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff") format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Light';
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff") format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff") format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff") format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff") format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff") format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Black';
+    src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff") format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+header{width: 100%; height: 200px;}
+
+/* 헤더 메뉴 바 */ 
+
+header .menubar{width: 1700px;height: 74px;background: #ffe7da;display: flex;margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    }
+
+header .menubar h1 {margin-left: 80px; width: 200px;}
+
+header .menubar a {color: #3f281f;font-family: 'Pretendard-Medium';font-size: 22px;opacity: 1;}
+
+/* 로그인 */
+
+header .login {}
+
+header .login a {color:#943900; font-family: 'Pretendard-Medium';font-size: 18px;padding: 0 25px;}
+
+section{width: 100%;margin: 250px auto 0 auto;}
+
+/* 메뉴품목 */
+
+.categori{ text-align: center;}
+
+.categori a {font-size: 20px; 
+    font-family: 'Pretendard-Bold'; 
+    border-right:1px solid #943900; 
+    display: inline-block; 
+    height: 35px;
+    padding: 0 30px; 
+    line-height: 1.7;}
+
+.categori a:first-child{border-left: 1px solid #943900;border-right: 0;}
+
+.categori a:nth-child(2){background: #943900; color:#fff; border-radius: 5px;}
+
+/* 메뉴간판 */
+
+.beverage{   margin:167px auto 0 auto; text-align: center;}
+
+.beverage h2{font-family: 'Pretendard-Bold'; color: #943900; font-size: 90px;}
+
+.beverage em{ font-style: normal;
+    font-family: 'Pretendard-Bold'; 
+    font-size: 20px; 
+    color: #943900; 
+    margin-top: 10px;
+    display: block;}
+
+/* 비주얼 1번 */
+
+.visual1{width: 100%;margin-top: 112px ; text-align: center;}
+
+.visual1 a {display: inline-block; text-align: center; padding: 0 50px;}
+
+.visual1 img { }
+
+.visual1 p {margin-top: 15px; 
+    font-size: 20px;
+    font-family: 'Pretendard-Bold';}
+
+.visual1 p span {color: #943900; font-size: 16px;font-family: 'Pretendard-Medium';padding-top: 15px;display: block;}
+
+/* 비주얼 2번  */
+
+.visual2{width: 100%;margin-top: 60px; text-align: center;}
+
+.visual2 a {display: inline-block; text-align: center; padding: 0 50px;}
+
+.visual2 img { }
+
+.visual2 p {margin-top: 15px; 
+    font-size: 20px;
+    font-family: 'Pretendard-Bold';}
+
+.visual2 p span {color: #943900; font-size: 16px;font-family: 'Pretendard-Medium';padding-top: 15px;display: block;}
+
+/* 비주얼 3번 */
+
+.visual3{width: 100%;margin-top: 60px; text-align: center;}
+
+.visual3 a {display: inline-block; text-align: center; padding: 0 50px;}
+
+.visual3 img { }
+
+.visual3 p {margin-top: 15px; 
+    font-size: 20px;
+    font-family: 'Pretendard-Bold';}
+
+.visual3 p span {color: #943900; font-size: 16px;font-family: 'Pretendard-Medium';padding-top: 15px;display: block;}
+
+
+/* 푸터 */
+
+footer{width: 100%;margin-top: 239px;;background: #a1856e; display: flex;}
+
+footer h1 {  margin-left: 20% ;display: inline-block;}
+
+footer p { font-size: 10px; text-align: center; 
+        
+        font-family: 'Pretendard-Light';  
+        display: inline-block; 
+        margin: 30px 800px 0 auto;
+        }
+
+footer h1 img { width: 150px;}
+
+
+
+
+
+
+/* 브랜드페이지 */
+
+
+
+.brand { position: absolute; z-index: 10;}
+
+#visual_brand { background: url(../imges/visual.png) no-repeat center top; max-width: 1920px;; 
+    border: 1px solid #000;height: 800px;  position: relative; display: flex; overflow: hidden; margin: 0   auto;}
+
+#visual_brand .textbox { position: absolute; bottom: 200px; left: 75px;}
+#visual_brand .textbox h2{ color: #fff;  font-size: 90px; font-family:'Pretendard'; font-weight: 700;} 
+
+
+.submenu {width: 1920px; justify-content: center; display: flex; margin: 0  auto;} 
+
+.subtitle {display: flex;  gap: 90px; justify-content: center;  margin: 0 auto; }
+.subtitle li{}
+.subtitle li a{ font-size: 20px; font-family: 'Pretendard'; font-weight: 400; padding: 45px 0 10px 0;   display: flex;align-items: center; }
+.subtitle li a.on { color: #602B12; font-weight: 700; border-bottom: 2px solid #602B12;}
+
+
+
+.sec1_brand { width: 100%; background: #473832;  margin: 0 auto; margin-top: 200px; justify-content: center; text-align: center;}
+.sec1_brand .title { padding: 50px 0;}
+.sec1_brand .title h2{ font-size: 30px; color: #fff; font-family: 'Pretendard'; font-weight: 700;}
+
+.sec1_brand .brand_slide { position: relative; padding-bottom: 100px;}
+.sec1_brand .brand_slide .textbox { position: absolute; z-index: 10; left: 50%; top: 50%; transform: translateX(-90%); background: rgba(0, 0, 0, 0.4); border-radius: 10px; padding: 20px 0; text-align: left; text-indent: 20px;}
+.sec1_brand .brand_slide .textbox h3{color: #fff; margin-bottom: 15px;}
+.sec1_brand .brand_slide .textbox p{ color: #fff ; margin-bottom: 10px;}
+.sec1_brand .brand_slide .swiper-wrapper img{  display: inline;}
+
+.swiper-button-next, .swiper-button-prev { color: #fff;  }
+
+
+
+.sec2{}
+.sec2 .centerbox {  margin: 0 auto;}
+.sec2 .centerbox .title{display: flex; justify-content: center; margin-bottom: 60px;}
+.sec2 .centerbox .title h3 { font-size: 30px; font-family: 'Pretendard'; font-weight: 700; color: #333333;}
+.sec2 .centerbox .contentbox{ display: flex; justify-content: center; align-items: center;}
+.sec2 .centerbox .contentbox .sqbox{
+    position: relative;width: 400px; height: 400px; background: #E2E2E2; border-radius: 25px; display: flex; justify-content: center; align-items: center;}
+.sec2 .centerbox .contentbox .sqbox .sq1{width: 300px; height: 300px; background: #D9D9D9; border-radius: 25px; display: flex; align-items: center; justify-content: center;}
+.sec2 .centerbox .contentbox .sqbox .sq1 img {margin-left: 30px; }
+
+
+.sec2 .centerbox .contentbox .sqbox .con1,.con2,.con3 { position: absolute;}
+.sec2 .centerbox .contentbox .sqbox .con1 .context{ margin-bottom: 70px;}
+.sec2 .centerbox .contentbox .sqbox .con1 .context p { font-size: 18px; color: #605F5F; font-family: 'Pretendard'; font-weight: 400; margin-bottom: 5px;}
+.sec2 .centerbox .contentbox .sqbox .con1 .context p.on { color: #333; font-size: 20px; margin-bottom: 10px;}
+.sec2 .centerbox .contentbox .sqbox .con1 img {height: 100%;}
+.sec2 .centerbox .contentbox .sqbox .con1 .line1{ height: 100%; margin-top: 20px ; margin-left: 10px; margin-right: 10px;}
+.sec2 .centerbox .contentbox .sqbox .con1{ left: -400px; top: 70px; display: flex;}
+
+
+.sec2 .centerbox .contentbox .sqbox .con2{ bottom: -100px; left: 30%;  } 
+
+.sec2 .centerbox  .con2_2{   display: flex; margin-top: 130px; justify-content: center; margin-right: 500px;}
+.sec2 .centerbox  .con2_2 .context{   }
+.sec2 .centerbox  .con2_2 .context p{   font-size: 18px; color: #605F5F; font-family: 'Pretendard'; font-weight: 400; margin-bottom: 5px;}
+.sec2 .centerbox  .con2_2 .context p.on{ color: #333; font-size: 20px; margin-bottom: 10px;  }
+.sec2 .centerbox  .con2_2 img{ margin-left: 20px; margin-bottom: 30px;}
+
+.sec2 .centerbox .contentbox .sqbox .con2 img { height: 100%;}
+.sec2 .centerbox .contentbox .sqbox .con3{right: 0;}
+
+
+.sec2 .centerbox .contentbox .sqbox .con3 .context{ }
+.sec2 .centerbox .contentbox .sqbox .con3 .context p { font-size: 18px; color: #605F5F; font-family: 'Pretendard'; font-weight: 400; margin-bottom: 5px; }
+.sec2 .centerbox .contentbox .sqbox .con3 .context p.on { color: #333; font-size: 20px; margin-bottom: 10px;}
+.sec2 .centerbox .contentbox .sqbox .con3 img {height: 100%;}
+.sec2 .centerbox .contentbox .sqbox .con3 .line1{ height: 100%;   margin-right: 10px; margin-left: 10px; margin-top: 10px;}
+.sec2 .centerbox .contentbox .sqbox .con3{ right: -400px; top: 40%; display: flex;}
+
+
+
